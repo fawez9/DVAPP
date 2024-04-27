@@ -23,13 +23,13 @@ git clone https://github.com/fawez9/DVAPP.git
 ```bash
 npm install
 ```
-###Step 3: Start Ganache
+### Step 3: Start Ganache
 
 Ensure Ganache is running locally on your machine, you can download it from link below.
 
 link:[ https://archive.trufflesuite.com/ganache/ ]
 
-###Step 4: Compile & Deploy Election Smart Contract
+### Step 4: Compile & Deploy Election Smart Contract
 
 ```bash
 truffle migrate --reset
@@ -37,11 +37,11 @@ truffle migrate --reset
 
 **Note**: Ensure to migrate the election smart contract each time you restart Ganache.
 
-###Step 5: Configure MetaMask and Link it with Ganache
+### Step 5: Configure MetaMask and Link it with Ganache
 
 Configure your MetaMask extension and connect it to your local Ganache network.
 
-###Step 6: Run the Application
+### Step 6: Run the Application
 
 ```bash
 npm run dev
@@ -49,6 +49,6 @@ npm run dev
 
 Visit this URL in your browser: http://localhost:3000 or you'll find the correct URL prompted on your terminal.
 
-##Contributing
+### Contributing
 
 **We welcome contributions from the community! Feel free to submit pull requests or open issues if you encounter any problems or have suggestions for improvement.**
